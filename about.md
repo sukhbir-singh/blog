@@ -15,5 +15,3 @@ Github Profile: [https://github.com/sukhbir-singh](https://github.com/sukhbir-si
 LinkedIn Profile: [https://www.linkedin.com/in/sukhbir-singh](https://www.linkedin.com/in/sukhbir-singh)
 
 Facebook: [https://www.facebook.com/sukhbir.jadaun](https://www.facebook.com/sukhbir.jadaun)
-
-Thanks for reading!
