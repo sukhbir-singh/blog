@@ -10,6 +10,8 @@ Hi, I am Sukhbir Singh and I am currently pursuing Dual Degree Course (B.Tech + 
 ## Contact me
 Email: [sukhbir947@gmail.com](mailto:sukhbir947@gmail.com)
 
+Portfolio: [https://sukhbir-singh.github.io/](https://sukhbir-singh.github.io/)
+
 Github Profile: [https://github.com/sukhbir-singh](https://github.com/sukhbir-singh)
 
 LinkedIn Profile: [https://www.linkedin.com/in/sukhbir-singh](https://www.linkedin.com/in/sukhbir-singh)

@@ -12,6 +12,7 @@ I am Sukhbir Singh, an undergraduate from National Institute of Technology Hamir
 During this period, I have worked with core team of Amahi to develop features and functionalities for the latest release of Amahi known as "Amahi 11", which is the newer version of linux powered home server. 
 
 ## Project Details
+
 - Student: Sukhbir Singh
 - Github: [https://github.com/sukhbir-singh](https://github.com/sukhbir-singh)
 - GSoC Project Link: [Amahi 11 Improvements](https://summerofcode.withgoogle.com/projects/#6139448354406400)
@@ -32,7 +33,39 @@ Each plugin adds a new feature to the system. As part of this project, I have de
 Lastly, I have collaborated with another GSoC student Chirag, to implement friending feature for Amahi. This feature aims to provide sharing functionality of folders among friends. This feature consists of two parts - implementing REST APIs and developing friending plugin and providing this plugin support in platform. I did the Implementation of friending plugin and platform support part. By using the friending plugin an Amahi user can add friends and can give them access to their folders and can manage friend requests sent. 
 
 ## Code Links
-Pull Requests: [amahi/platform pull-requests author:sukhbir-singh](https://github.com/amahi/platform/pulls?q=is%3Apr+author%3Asukhbir-singh+is%3Aclosed)
+
+### Amahi/Platform
+
+Repository: [https://github.com/amahi/platform](https://github.com/amahi/platform)
+
+Merged Pull Requests: [amahi/platform pull-requests author:sukhbir-singh](https://github.com/amahi/platform/pulls?q=is%3Apr+author%3Asukhbir-singh+is%3Aclosed)
+
+Commits: [amahi/platform commits author=sukhbir-singh](https://github.com/amahi/platform/commits/r52-bs4-app-installs?author=sukhbir-singh)
+
+### RSnapshot Plugin
+
+Repository: [https://github.com/amahi/rsnapshot-backup-plugin](https://github.com/amahi/rsnapshot-backup-plugin)
+
+Commits: [amahi/rsnapshot-backup-plugin commits author=sukhbir-singh](https://github.com/amahi/rsnapshot-backup-plugin/commits?author=sukhbir-singh)
+
+### SMART Status Plugin
+
+Repository: [https://github.com/amahi/smart-status-plugin](https://github.com/amahi/smart-status-plugin)
+
+Commits: [amahi/smart-status-plugin commits author=sukhbir-singh](https://github.com/amahi/smart-status-plugin/commits?author=sukhbir-singh)
+
+### Friending Plugin (In Progress)
+
+Repository: [https://github.com/sukhbir-singh/friending-plugin](https://github.com/sukhbir-singh/friending-plugin)
+
+Commits: [sukhbir-singh/friending-plugin commits author=sukhbir-singh](https://github.com/sukhbir-singh/friending-plugin/commits?author=sukhbir-singh)
+
+### Bug fixes in other Plugins
+
+Disk-Wizard Plugin PRs: [amahi/disk-wizard pulls author=sukhbir-singh](https://github.com/amahi/disk-wizard/pulls?q=is%3Apr+author%3Asukhbir-singh)
+
+Greyhole Plugin PRs: [amahi/greyhole pulls author=sukhbir-singh](https://github.com/amahi/greyhole/pulls/sukhbir-singh)
+
 
 ## Implementation
 - Solved security issues and other bugs. Implemented custom theme support to platform.
