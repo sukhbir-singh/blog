@@ -9,7 +9,7 @@ author: "Sukhbir Singh"
 Hello, 
 I am Sukhbir Singh, an undergraduate from National Institute of Technology Hamirpur. I worked with [Amahi](https://github.com/amahi/) Organization as Google Summer of Code Student over last summer. It was the most exciting summer I ever had. Weekly meetings, Daily challenges, Discussion about Silicon Valley culture, Learning more about Ruby on Rails framework, Making good connections and what else could we imagine.
 
-During this period, I have worked with core team of Amahi to develop features and functionalities for the latest release of Amahi known as **Amahi 11**, which is the newer version of linux powered home server. 
+During this period, I have worked with the core team of Amahi to develop features and functionalities for the latest release of Amahi known as **Amahi 11**, which is the newer version of Linux powered home server. 
 
 ## Project Details
 
@@ -18,7 +18,7 @@ During this period, I have worked with core team of Amahi to develop features an
 - GSoC Project Link: [Amahi 11 Improvements](https://summerofcode.withgoogle.com/projects/#6139448354406400)
 - Organization: [Amahi](https://github.com/amahi/)
 
-This project requires working knowledge of Ruby on Rails, Javascript and Web development. Along with other CS fundamentals like caching, ssh, operating system etc. 
+This project requires working knowledge of Ruby on Rails, Javascript, and Web development. Along with other CS fundamentals like caching, ssh, operating system etc. 
 
 Goals Achieved:-
 - Improved entire front-end of platform using bootstrap-4.
@@ -26,7 +26,7 @@ Goals Achieved:-
 - Provided support to dynamic theme installation.
 - Makes apps installation on platform more reliable and user-friendly and also providing caching support to it. 
 - Implemented new plugins from scratch and provided support to existing plugins.
-- Implemented sharing of folders among the friend servers, also called friending feature. Some parts of this feature is still in progress.
+- Implemented sharing of folders among the friend servers, also called friending feature. Some parts of this feature are still in progress.
 
 Each plugin adds a new feature to the system. As part of this project, I have developed plugins for detecting hard drive failures using S.M.A.R.T status, and a plugin for creating incremental backups periodically which is based on Rsnapshot tool. 
 
@@ -73,7 +73,7 @@ Commits: [sukhbir-singh/friending-plugin commits author=sukhbir-singh](https://g
 Platform is the core repository of Amahi. I did the following changes and improvements:- 
 - Worked on to make the entire front-end of platform responsive using bootstrap-4. PRs for the same is [here](https://github.com/amahi/platform/pull/196).
 - Implemented caching support to apps installation using memcached and made the process reliable for users by preventing multiple installations and showing dynamic progress on the front end. The code is [here](https://github.com/amahi/platform/pull/210).
-- Helped in upgrading app to latest Rails version 5.2, particularly solved security issues related to mass assignment of model attributes by using Rails-5 strong parameters feature. The code for this is [here](https://github.com/amahi/platform/pull/180). 
+- Helped in upgrading app to latest Rails version 5.2, particularly solved security issues related to the mass assignment of model attributes by using Rails-5 strong parameters feature. The code for this is [here](https://github.com/amahi/platform/pull/180). 
 - Fixed issues from existing themes and implemented beach theme. Code links: [PR#192](https://github.com/amahi/platform/pull/192), [PR#201](https://github.com/amahi/platform/pull/201), [PR#203](https://github.com/amahi/platform/pull/203).
 - Added additional login support for the user by adding PIN to user’s model and did corresponding front end changes. Code [here](https://github.com/amahi/platform/pull/195).
 - Fixed existing issues in JS files, Rspec tests, and slow loading problem of apps listing. Relevant code links: [PR#188](https://github.com/amahi/platform/pull/188), [PR#191](https://github.com/amahi/platform/pull/191), [PR#194](https://github.com/amahi/platform/pull/194), [PR#207](https://github.com/amahi/platform/pull/207), [PR#209](https://github.com/amahi/platform/pull/209/files), [PR#221](https://github.com/amahi/platform/pull/221).
