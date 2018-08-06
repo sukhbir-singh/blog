@@ -7,9 +7,9 @@ author: "Sukhbir Singh"
 ![Google Summer of Code Image](https://github.com/sukhbir-singh/blog/raw/master/assets/images/gsoc_image.png "Google Summer of Code Image")
 
 Hello, 
-I am Sukhbir Singh, an undergraduate from National Institute of Technology Hamirpur. I worked with [Amahi](https://github.com/amahi/) Organization as Google Summer of Code Student over last summer. It was the most exciting summer I ever had. Weekly meetings, Daily challenges, Discussion about Silicon Valley culture, Learning more about Ruby on Rails framework, Making good connections and what else could we imagine.
+I am Sukhbir Singh, an undergraduate from National Institute of Technology Hamirpur. I worked with [Amahi](https://github.com/amahi/) Organization as Google Summer of Code Student over last summer. It was the most exciting summer I ever had. Weekly meetings, Daily challenges, Discussion about Silicon Valley culture, Learning more about Ruby on Rails framework, Making good connections and what else could I imagine.
 
-During this period, I have worked with the core team of Amahi to develop features and functionalities for the latest release of Amahi known as **Amahi 11**, which is the newer version of Linux powered home server. 
+During this period, I have worked with the core team of Amahi to develop features and functionalities for the latest release of Amahi known as **Amahi 11**, which is the newer version of Linux-powered home server. 
 
 ## Project Details
 
@@ -21,14 +21,14 @@ During this period, I have worked with the core team of Amahi to develop feature
 This project requires working knowledge of Ruby on Rails, Javascript, and Web development. Along with other CS fundamentals like caching, ssh, operating system etc. 
 
 Goals Achieved:-
-- Improved entire front-end of platform using bootstrap-4.
+- Improved front-end of platform using bootstrap-4.
 - Fixed existing bugs of platform and helped in upgrading the project to Rails 5.2 version.
 - Provided support to dynamic theme installation.
 - Makes apps installation on platform more reliable and user-friendly and also providing caching support to it. 
 - Implemented new plugins from scratch and provided support to existing plugins.
 - Implemented sharing of folders among the friend servers, also called friending feature. Some parts of this feature are still in progress.
 
-Each plugin adds a new feature to the system. As part of this project, I have developed plugins for detecting hard drive failures using S.M.A.R.T status, and a plugin for creating incremental backups periodically which is based on Rsnapshot tool. 
+Each plugin adds a new feature to the system. As part of this project, I have developed plugins for detecting hard drive failures using S.M.A.R.T status, and a plugin for creating incremental backups periodically which is based on Rsnapshot tool.
 
 Lastly, I have collaborated with another GSoC student Chirag, to implement friending feature for Amahi. This feature aims to provide sharing functionality of folders among friends. This feature consists of two parts - implementing REST APIs and developing friending plugin and providing this plugin support in platform. I did the Implementation of friending plugin and platform support part. By using the friending plugin an Amahi user can add friends and can give them access to their folders and can manage friend requests sent. 
 
@@ -71,7 +71,7 @@ Commits: [sukhbir-singh/friending-plugin commits author=sukhbir-singh](https://g
 ### Amahi/Platform
 
 Platform is the core repository of Amahi. I did the following changes and improvements:- 
-- Worked on to make the entire front-end of platform responsive using bootstrap-4. PRs for the same is [here](https://github.com/amahi/platform/pull/196).
+- Worked on to make the front-end of platform responsive using bootstrap-4. PRs for the same is [here](https://github.com/amahi/platform/pull/196).
 - Implemented caching support to apps installation using memcached and made the process reliable for users by preventing multiple installations and showing dynamic progress on the front end. The code is [here](https://github.com/amahi/platform/pull/210).
 - Helped in upgrading app to latest Rails version 5.2, particularly solved security issues related to the mass assignment of model attributes by using Rails-5 strong parameters feature. The code for this is [here](https://github.com/amahi/platform/pull/180). 
 - Fixed issues from existing themes and implemented beach theme. Code links: [PR#192](https://github.com/amahi/platform/pull/192), [PR#201](https://github.com/amahi/platform/pull/201), [PR#203](https://github.com/amahi/platform/pull/203).
@@ -92,7 +92,7 @@ Platform is the core repository of Amahi. I did the following changes and improv
 
 ## Future Work
 
- Amahi platform is a large codebase and is a bit complex to understand at first. The project has lots of scope for future improvements. Asset pipeline's implementation can be improved. More plugins can be developed in order to add more functionalities to the system. Front-End parts of other existing plugins can be improved. More REST APIs could be developed as per requirements of the users which can be consumed by Android and iOS apps.
+ Amahi platform is a large codebase and is a bit complex to understand at first. The project has lots of scope for future improvements. Asset pipeline's implementation can be improved. More plugins can be developed in order to add more functionalities to the system. Front-end parts of other existing plugins can be improved. More REST APIs could be developed as per requirements of the users which can be consumed by Android and iOS apps.
 
 ## Conclusion
 
