@@ -13,10 +13,10 @@ During this period, I have worked with the core team of Amahi to develop feature
 
 ## Project Details
 
-- Student: Sukhbir Singh
-- Github: [https://github.com/sukhbir-singh](https://github.com/sukhbir-singh)
-- GSoC Project Link: [Amahi 11 Improvements](https://summerofcode.withgoogle.com/projects/#6139448354406400)
+- Student: Sukhbir Singh ([sukhbir-singh](https://github.com/sukhbir-singh))
+- Mentor: Carlos Puchol ([cpg](https://github.com/cpg))
 - Organization: [Amahi](https://github.com/amahi/)
+- GSoC Project Link: [Amahi 11 Improvements](https://summerofcode.withgoogle.com/projects/#6139448354406400)
 
 This project requires working knowledge of Ruby on Rails, Javascript, and Web development. Along with other CS fundamentals like caching, ssh, operating system etc. 
 
@@ -26,11 +26,11 @@ Goals Achieved:-
 - Provided support to dynamic theme installation.
 - Makes apps installation on platform more reliable and user-friendly and also providing caching support to it. 
 - Implemented new plugins from scratch and provided support to existing plugins.
-- Implemented sharing of folders among the friend servers, also called friending feature. Some parts of this feature are still in progress.
+- Implemented sharing of folders among the friend servers, also called friending feature.
 
 Each plugin adds a new feature to the system. As part of this project, I have developed plugins for detecting hard drive failures using S.M.A.R.T status, and a plugin for creating incremental backups periodically which is based on Rsnapshot tool.
 
-Lastly, I have collaborated with another GSoC student Chirag, to implement friending feature for Amahi. This feature aims to provide sharing functionality of folders among friends. This feature consists of two parts - implementing REST APIs and developing friending plugin and providing this plugin support in platform. I did the Implementation of friending plugin and platform support part. By using the friending plugin an Amahi user can add friends and can give them access to their folders and can manage friend requests sent. 
+Lastly, I have collaborated with another GSoC student Chirag, to implement friending feature for Amahi. This feature aims to provide sharing functionality of folders among friends. This feature consists of two parts - implementing REST APIs and developing friending plugin and providing this plugin support in platform. I did the Implementation of friending plugin and platform support part. By using the friending plugin, an Amahi user can add friends and can give them access to their folders and can manage friend requests sent. 
 
 ## Code Links
 
@@ -60,11 +60,11 @@ Disk-Wizard Plugin PRs: [amahi/disk-wizard pulls author=sukhbir-singh](https://g
 
 Greyhole Plugin PRs: [amahi/greyhole pulls author=sukhbir-singh](https://github.com/amahi/greyhole/pulls/sukhbir-singh)
 
-### Friending Plugin (In Progress)
+### Friending Plugin
 
-Repository: [https://github.com/sukhbir-singh/friending-plugin](https://github.com/sukhbir-singh/friending-plugin)
+Repository: [https://github.com/amahi/friending-plugin](https://github.com/amahi/friending-plugin)
 
-Commits: [sukhbir-singh/friending-plugin commits author=sukhbir-singh](https://github.com/sukhbir-singh/friending-plugin/commits?author=sukhbir-singh)
+Commits: [amahi/friending-plugin commits author=sukhbir-singh](https://github.com/amahi/friending-plugin/commits?author=sukhbir-singh)
 
 ## Implementation
 
@@ -75,7 +75,7 @@ Platform is the core repository of Amahi. I did the following changes and improv
 - Implemented caching support to apps installation using memcached and made the process reliable for users by preventing multiple installations and showing dynamic progress on the front end. The code is [here](https://github.com/amahi/platform/pull/210).
 - Helped in upgrading app to latest Rails version 5.2, particularly solved security issues related to the mass assignment of model attributes by using Rails-5 strong parameters feature. The code for this is [here](https://github.com/amahi/platform/pull/180). 
 - Fixed issues from existing themes and implemented beach theme. Code links: [PR#192](https://github.com/amahi/platform/pull/192), [PR#201](https://github.com/amahi/platform/pull/201), [PR#203](https://github.com/amahi/platform/pull/203).
-- Added additional login support for the user by adding PIN to user’s model and did corresponding front end changes. Code [here](https://github.com/amahi/platform/pull/195).
+- Added additional login support for the user by adding PIN to user’s model and did corresponding front end changes. Code is [here](https://github.com/amahi/platform/pull/195).
 - Fixed existing issues in JS files, Rspec tests, and slow loading problem of apps listing. Relevant code links: [PR#188](https://github.com/amahi/platform/pull/188), [PR#191](https://github.com/amahi/platform/pull/191), [PR#194](https://github.com/amahi/platform/pull/194), [PR#207](https://github.com/amahi/platform/pull/207), [PR#209](https://github.com/amahi/platform/pull/209/files), [PR#221](https://github.com/amahi/platform/pull/221).
 
 ### SMART Status Plugin and RSnapshot Plugin
@@ -84,11 +84,11 @@ Platform is the core repository of Amahi. I did the following changes and improv
 - Implemented RSnapshot based plugin for creating incremental backups. The user can set periodicity of the backups as per his needs. The code is [here](https://github.com/amahi/rsnapshot-backup-plugin/commits?author=sukhbir-singh).
 - Resolved routing errors in Greyhole UI Plugin. The code is [here](https://github.com/amahi/greyhole/pulls/sukhbir-singh). Added support for Rails 5.2 in Disk Wizard Plugin, also fixed layouts and Javascripts. The code is [here](https://github.com/amahi/disk-wizard/pulls?q=is%3Apr+author%3Asukhbir-singh).
 
-### Friending Plugin (In Progress)
+### Friending Plugin
 
 - Friending plugin is used to implement friending feature in platform. This feature allows one Amahi user to befriend another Amahi user so that friend user can access folders of primary user. Primary user can set levels of access permission for that user corresponding to each folder shared with him.
 - The requirements of this feature, API specs, and flow diagram is [here](https://docs.google.com/document/d/14JsH9-aZrE3Z-35Oo38IY1-3Nd5BJiR_G0DshhjKSM4/edit). This doc is prepared by me and chirag for documenting and understanding the requirements of this plugin.
-- The development of this plugins is still in progress. The code can be found [here](https://github.com/sukhbir-singh/friending-plugin/commits?author=sukhbir-singh).
+- The code for this plugin can be found [here](https://github.com/amahi/friending-plugin/commits?author=sukhbir-singh).
 
 ## Future Work
 
@@ -96,6 +96,6 @@ Platform is the core repository of Amahi. I did the following changes and improv
 
 ## Conclusion
 
-At last, I want to thanks Google and Amahi for this great opportunity. Google Summer of Code is one of the best programs a student can participate in during his graduation years. Amahi organization is very welcoming and responsive to new contributors. It is because of this friendly community and people only that kept me engaged and motivated for contributions during this period. Also, I want to mention, my mentor [@cpg](https://github.com/cpg), who is one of the best person I ever interacted with. He managed things really well and is always there for help whenever I needed. It is fun overall and I have learned a lot in the process.
+At last, I want to Thanks Google and Amahi for this great opportunity. Google Summer of Code is one of the best programs a student can participate in during his graduation years. Amahi organization is very welcoming and responsive to new contributors. It is because of this friendly community and people only that kept me engaged and motivated for contributions during this period. Also, I want to mention, my mentor [@cpg](https://github.com/cpg), who is one of the best person I ever interacted with. He managed things really well and is always there for help whenever I needed. It is fun overall and I have learned a lot in the process.
 
 Thanks for reading!
