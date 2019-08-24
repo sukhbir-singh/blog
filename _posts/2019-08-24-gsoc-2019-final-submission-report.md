@@ -16,6 +16,8 @@ Mentor: Carlos Puchol ([cpg](https://github.com/cpg))
 
 Organization: [Amahi](https://github.com/amahi)
 
+Work Duration: May 27, 2019 - August 19, 2019
+
 GSoC Proposal Link: [Amahi 12 Improvements](https://summerofcode.withgoogle.com/projects/#4847686564446208)
 
 
