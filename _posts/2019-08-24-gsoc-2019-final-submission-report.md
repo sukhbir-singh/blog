@@ -6,8 +6,8 @@ author: "Sukhbir Singh"
 
 ![Google Summer of Code Image](https://github.com/sukhbir-singh/blog/raw/master/assets/images/gsoc_image.png "Google Summer of Code Image")
 
-Hi there, 
-I am Sukhbir Singh, a final year student of National Institute of Technology Hamirpur. For last 3 months, I have worked with "Amahi" organization as a Google Summer of Code student developer. Amahi is one the best open source media server software available right now. Platform is the core sofware of Amahi and it is in development from last 7 years. Amahi 11 officially released last year in 2018 and provides support for fedora 27. In this report, I would like to mention everything i have worked on during this period.
+Hi there,
+I am Sukhbir Singh, a final year student of National Institute of Technology Hamirpur. For the last 3 months, I have worked with “Amahi” organization as a Google Summer of Code student developer. Amahi is one of the best open-source media server software available right now. The platform is the core software of Amahi and it is in development from last 7 years. Amahi 11 officially released last year in 2018 and provides support for fedora 27. In this report, I would like to mention everything I have worked on during this period.
 
 ## Project Details
 Student: Sukhbir Singh ([sukhbir-singh](https://github.com/sukhbir-singh))
@@ -142,11 +142,10 @@ All Commits: [sukhbir-singh/amahi-cert-factory/commits](https://github.com/sukhb
 
 ## Future Work
 
-There is always a scope of improvements. Softwares need maintainence to keep working fine in new changing environments. With newer versions of Amahi got released in order to support latest fedora versions, plugins for the same needs maintainance. Friending feature needs to be adapted for Amahi.org. Most of the work in Let's encrypt feature is complete but still needs some development.
+There is always a scope of improvements. Softwares need maintenance to keep working fine in new changing environments. With newer versions of Amahi got released to support latest fedora versions, plugins for the same needs maintenance. Friending feature needs to be adapted for Amahi.org. Most of the work in Let’s encrypt feature is complete but still needs some development.
 
 
 ## Conclusion
 
-I really enjoyed contributing to Amahi and learned lots of new things in the way. This was my second time doing Google Summer of Code with Amahi. Thanks to this awesome program, I can say that i have become a better software developer overall and now i am not afraid to contribute to big codebase projects. I would also like to thanks [@cpg](https://github.com/cpg) for mentoring me so well during this program. During this period, I have gained lots of new skills related to coding, software maintainance, system design, etc that will always help me in my career ahead. 
-
+I enjoyed contributing to Amahi and learned lots of new things in the way. This was my second time doing Google Summer of Code with Amahi. Thanks to this awesome program, I can say that I have become a better software developer overall and now I am not afraid to contribute to big codebase projects. I would also like to thanks [@cpg](https://github.com/cpg) for mentoring me so well during this program. During this period, I have gained lots of new skills related to coding, software maintenance, system design, etc that will always help me in my career ahead.
 
